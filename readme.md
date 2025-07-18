@@ -5,7 +5,7 @@ It’s a nil-safe drop-in replacement for [Ramda](https://ramdajs.com/).
 It allows you to program more intuitively – to avoid the noise of nil checks
 that are imposed upon you by the machine, not the logic.
 
-| Replace                                                                                                                                            | With                                                                                                           |
+| Ramda                                                                                                                                              | Safe Ramda                                                                                                     |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | `unless(isNil)(replace('foo', 'bar'))`                                                                                                             | `replace('foo', 'bar')`                                                                                        |
 | <pre>const getMyCookie = pipe( <br> defaultTo([]), <br> find(startsWith('my-cookie=')), <br> unless(isNil)(pipe(split('='), nth(1))), <br>) </pre> | <pre>const getMyCookie = pipe( <br> find(startsWith('my-cookie=')), <br> split('='), <br> nth(1), <br>) </pre> |
