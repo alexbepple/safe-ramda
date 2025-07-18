@@ -8,13 +8,20 @@
   },
 
   "tasks": {
-    "fmt-fix": "deno fmt",
+    "fmt:fix": "deno fmt",
+    "fmt:check": "deno fmt --check",
     "lint": "deno lint",
     "test": "deno test --reporter=dot",
+
     "pre-commit": {
-      "dependencies": ["fmt-fix", "lint", "test"]
+      "dependencies": ["fmt:fix", "lint", "test"]
     },
-    "publish!": "deno publish --allow-slow-types",
+    "check": { "dependencies": ["fmt:check", "lint", "test"] },
+
+    "publish!": {
+      "command": "deno publish --allow-slow-types",
+      "dependencies": ["check"]
+    },
     "publish": "deno task publish! --dry-run --allow-dirty"
   },
 
