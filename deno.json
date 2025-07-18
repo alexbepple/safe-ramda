@@ -11,6 +11,11 @@
     "exclude": ["pkgx.yaml", "**/*.test.mjs"]
   },
 
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+
   "name": "@alexbepple/safe-ramda",
   "exports": "./lib/index.mjs",
   "license": "MIT"
