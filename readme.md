@@ -19,7 +19,7 @@ Inspiration for sensible return values comes primarily from [Sanctuary](https://
 
 ## Install
 
-This package is not on NPM, but on JSR.
+This package is not on NPM, but on [JSR](https://jsr.io/).
 
 ### Deno
 ```js
