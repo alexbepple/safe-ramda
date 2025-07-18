@@ -1,5 +1,6 @@
 {
-  "version": "0.0.1-prerelease",
+  "version": "0.0.1-prerelease.1",
+  "exclude": ["pkgx.yaml"],
 
   "exports": "./lib/index.mjs",
   "name": "@alexbepple/safe-ramda",
