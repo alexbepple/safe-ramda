@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1-prerelease",
+
+  "exports": "./lib/index.mjs",
+  "name": "@alexbepple/safe-ramda",
+  "license": "MIT"
+}
