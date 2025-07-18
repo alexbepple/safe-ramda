@@ -7,6 +7,15 @@
     "ramda": "npm:ramda@0.31.3"
   },
 
+  "tasks": {
+    "fmt-fix": "deno fmt",
+    "lint": "deno lint",
+    "test": "deno test --reporter=dot",
+    "pre-commit": {
+      "dependencies": ["fmt-fix", "lint", "test"]
+    }
+  },
+
   "publish": {
     "exclude": ["pkgx.yaml", "**/*.test.mjs"]
   },
