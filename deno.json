@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2-prerelease.2",
+  "version": "0.0.2",
 
   "imports": {
     "@std/testing": "jsr:@std/testing",
