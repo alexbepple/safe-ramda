@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1-prerelease.3",
+  "version": "0.0.1-prerelease.4",
   "exclude": ["pkgx.yaml"],
 
   "exports": "./lib/index.mjs",
