@@ -13,7 +13,9 @@
     "test": "deno test --reporter=dot",
     "pre-commit": {
       "dependencies": ["fmt-fix", "lint", "test"]
-    }
+    },
+    "publish!": "deno publish --allow-slow-types",
+    "publish": "deno task publish! --dry-run --allow-dirty"
   },
 
   "publish": {
