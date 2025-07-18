@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "@std/testing": "jsr:@std/testing",
+    "hamjest": "npm:hamjest@4.1.0",
+    "ramda": "npm:ramda@0.31.3"
+  }
+}
