@@ -16,6 +16,14 @@
     "singleQuote": true
   },
 
+  "lint": {
+    "rules": {
+      "exclude": [
+        "no-slow-types"
+      ]
+    }
+  },
+
   "name": "@alexbepple/safe-ramda",
   "exports": "./lib/index.mjs",
   "license": "MIT"
