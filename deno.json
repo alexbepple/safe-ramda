@@ -1,7 +1,17 @@
 {
+  "version": "0.0.2-prerelease.2",
+
   "imports": {
     "@std/testing": "jsr:@std/testing",
     "hamjest": "npm:hamjest@4.1.0",
     "ramda": "npm:ramda@0.31.3"
-  }
+  },
+
+  "publish": {
+    "exclude": ["pkgx.yaml", "**/*.test.mjs"]
+  },
+
+  "name": "@alexbepple/safe-ramda",
+  "exports": "./lib/index.mjs",
+  "license": "MIT"
 }

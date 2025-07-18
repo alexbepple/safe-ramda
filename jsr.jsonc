@@ -1,8 +1,0 @@
-{
-  "version": "0.0.2-prerelease",
-  "exclude": ["pkgx.yaml", "**/*.test.mjs"],
-
-  "exports": "./lib/index.mjs",
-  "name": "@alexbepple/safe-ramda",
-  "license": "MIT"
-}
