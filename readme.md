@@ -13,8 +13,14 @@ that are imposed upon you by the machine, not the logic.
 Technically, Safe Ramda is a wrapper around Ramda.
 
 Whenever a sensible return value presents itself, Safe Ramda avoids
-`Uncaught TypeError`. Inspiration for sensible return values comes primarily
-from [Sanctuary](https://sanctuary.js.org/).
+`Uncaught TypeError` and other refusals to just work. Inspiration for sensible
+return values comes primarily from [Sanctuary](https://sanctuary.js.org/). For
+the happy path, Safe Ramda simply relies on Ramda.
+
+When there is no additional nil-safe behavior, Safe Ramda simply exports the
+Ramda function. Therefore, you should always be able to use Safe Ramda where you
+currently use Ramda without any semantic changes to behavior. (Unless, of
+course, you program by error or rely on errors being thrown in any other way.)
 
 ## Install
 
