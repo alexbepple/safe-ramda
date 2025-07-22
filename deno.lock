@@ -5,6 +5,7 @@
     "jsr:@std/internal@^1.0.8": "1.0.9",
     "jsr:@std/testing@*": "1.0.14",
     "npm:hamjest@4.1.0": "4.1.0",
+    "npm:ramda@*": "0.31.3",
     "npm:ramda@0.31.3": "0.31.3"
   },
   "jsr": {
